@@ -1,16 +1,15 @@
-import React , {useContext} from 'react'
-import { dataContext } from "../App"
-import { BsArrowDownCircleFill } from "react-icons/bs";
+import React, { useContext } from "react";
+import { dataContext } from "../App";
+
 
 function NinthPage() {
-
-const PageData = useContext(dataContext);
-  let appData = PageData.ninthPage
+  const PageData = useContext(dataContext);
+  let appData = PageData.ninthPage;
 
   return (
     <div>
-      {
-        appData ? <div>
+      {appData ? (
+        <div>
           <h4>{appData.topmassage}</h4>
           <div>
             <h4>{appData.cardData.text1}</h4>
@@ -24,10 +23,12 @@ const PageData = useContext(dataContext);
             <h4>{appData.dataPoint.point3}</h4>
             <h4>{appData.dataPoint.point4}</h4>
           </div>
-        </div> : "Loading"
-      }
+        </div>
+      ) : (
+        "Loading"
+      )}
     </div>
-  )
+  );
 }
 
-export default NinthPage
+export default NinthPage;

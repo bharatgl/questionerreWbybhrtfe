@@ -12,7 +12,7 @@ import EighthPage from "./Pages/EighthPage";
 import NinthPage from "./Pages/NinthPage";
 import "./Styles/index.css";
 import { AnimatePresence, motion } from "framer-motion";
-import TenthPage from "./Pages/Tenthpage";
+
 const dataContext = createContext();
 
 function App() {
@@ -44,8 +44,7 @@ function App() {
               <Route path="/sixthpage" element={<SixthPage />} />
               <Route path="/seventhpage" element={<SeventhPage />} />
               <Route path="/eighthpage" element={<EighthPage />} />
-              <Route path="/ninethpage" element={<NinthPage />} />
-              <Route path="/tenthpage" element={<TenthPage />} />
+              <Route path="/ninthpage" element={<NinthPage />} />
             </Routes>
           </dataContext.Provider>
         </BrowserRouter>

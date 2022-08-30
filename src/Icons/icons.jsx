@@ -10,9 +10,10 @@ function Tick() {
         color: "green",
         backgroundColor: "white",
         borderRadius: "50%",
-        height: "10px",
-        width: "10px",
+        height: "15px",
+        width: "15px",
       }}
+      // className="p-2"
     />
   );
 }

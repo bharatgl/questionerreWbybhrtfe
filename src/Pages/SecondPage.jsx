@@ -10,12 +10,12 @@ function SecondPage() {
   let appData = PageData.SecondPage;
 
   return (
-    <div className="flex items-center text-textColor h-full justify-center flex-col  gap-3 p-15 top-0">
+    <div className="flex items-center text-textColor h-full justify-center flex-col  gap-3 p-15 ">
       {appData ? (
         <>
           <h1 className="text-xl font-sans text-white ">
             {PageData.firstPage.Greeting_message}{" "}
-            <span className="font-extrabold font-sans text-[#80B3CB] ">
+            <span className="font-extrabold  font-sans text-[#80B3CB] ">
               {PageData.firstPage.name}
             </span>
           </h1>
