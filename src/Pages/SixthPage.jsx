@@ -15,7 +15,7 @@ function SixthPage() {
   let appData = PageData.sixthPage;
 
   return (
-    <div className="flex items-center h-screen flex-col gap-8 place-items-center p-20">
+    <div className="flex items-center  h-full justify-center flex-col text-lg  gap-3 p-15">
       {appData ? (
         <>
           <h2>{appData.message1}</h2>

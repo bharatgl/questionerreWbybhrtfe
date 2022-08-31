@@ -10,8 +10,8 @@ function Tick() {
         color: "green",
         backgroundColor: "white",
         borderRadius: "50%",
-        height: "15px",
-        width: "15px",
+        height: "80%",
+        width: "20%",
       }}
       // className="p-2"
     />
@@ -30,7 +30,7 @@ const SideArrow = () => {
         whileTap={{ scale: 0.5 }}
       >
         <BsArrowRightCircleFill
-          style={{ color: "#fb923c", height: "50px", width: "37px" }}
+          style={{ color: "#fb923c", height: "100px", width: "80px" }}
         />
       </motion.div>
     </AnimatePresence>

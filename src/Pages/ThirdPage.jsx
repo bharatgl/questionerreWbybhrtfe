@@ -8,7 +8,7 @@ function ThirdPage() {
   let appData = PageData.thirdPage;
 
   return (
-    <div className=" flex items-center h-screen text-lg text-textColor flex-col gap-12 place-items-center p-15">
+    <div className=" flex items-center  h-full justify-center flex-col text-lg  gap-3 p-15">
       {appData ? (
         <>
           <h4 className="font-sans  text-white">{appData.message1}</h4>

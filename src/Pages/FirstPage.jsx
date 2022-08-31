@@ -9,7 +9,7 @@ const FirstPage = () => {
 
   console.log();
   return (
-    <div className="min-h-screen-[50%] flex flex-col  items-center min-w-full text-textColor   place-items-center gap-5 p-15">
+    <div className="flex items-center min-h-screen  h-full justify-center flex-col text-lg gap-3 p-15">
       {appData ? (
         <>
           <h1 className=" text-xl font-sans text-white">

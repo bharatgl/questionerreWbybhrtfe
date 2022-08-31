@@ -10,7 +10,7 @@ function SecondPage() {
   let appData = PageData.SecondPage;
 
   return (
-    <div className="flex items-center text-textColor h-full justify-center flex-col  gap-3 p-15 ">
+    <div className="flex items-center min-h-screen text-textColor h-full justify-center flex-col text-lg gap-3 p-15 ">
       {appData ? (
         <>
           <h1 className="text-xl font-sans text-white ">

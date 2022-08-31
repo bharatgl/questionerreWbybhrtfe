@@ -1,13 +1,12 @@
 import React, { useContext } from "react";
 import { dataContext } from "../App";
 
-
 function NinthPage() {
   const PageData = useContext(dataContext);
   let appData = PageData.ninthPage;
 
   return (
-    <div>
+    <div className="flex items-center  h-full justify-center flex-col text-lg  gap-3 p-15">
       {appData ? (
         <div>
           <h4>{appData.topmassage}</h4>

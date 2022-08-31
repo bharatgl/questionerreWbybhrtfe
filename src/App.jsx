@@ -26,6 +26,7 @@ function App() {
   return (
     <AnimatePresence>
       <motion.div
+       
         // layout={{ duration: 0.3 }}
         // transition={{ duration: 1 }}
         initial={{ opacity: 0, scale: 0.6 }}

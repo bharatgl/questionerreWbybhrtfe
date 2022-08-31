@@ -21,13 +21,13 @@ function Fourthpage() {
   const PageData = useContext(dataContext);
   let appData = PageData.fourthPage;
   return (
-    <div className=" flex items-center self-start h-screen flex-col gap-1 top-0 p-1">
+    <div className=" flex items-center min-h-screen  h-full justify-center flex-col text-lg gap-3 p-15">
       {appData ? (
         <>
           <>
             <h3 className="text-lg font-bold">{appData.message1}</h3>
-            <p>{appData.message2}</p>
-            <div className="flex items-center  text-white flex-col gap-4 place-items-center p-6">
+            <p className="text-sm font-bold">{appData.message2}</p>
+            <div className="flex items-center text-lg text-white flex-col gap-4 place-items-center p-4">
               <button
                 className="rounded-lg  font-meidum flex justify-center self-center text-black bg-blue-500 px-10 py-5 box-content w-60"
                 onClick={button1Handler}

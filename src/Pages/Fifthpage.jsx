@@ -3,9 +3,6 @@ import { Link } from "react-router-dom";
 import { dataContext } from "../App";
 import { SideArrow, Tick } from "../Icons/icons";
 
-
-
-
 function FifthPage() {
   const [button1, setbutton1] = useState(false);
   const [button2, setbutton2] = useState(false);
@@ -24,11 +21,11 @@ function FifthPage() {
   const PageData = useContext(dataContext);
   let appData = PageData.fifthPage;
   return (
-    <div className="flex items-center h-screen flex-col gap-10 place-items-center p-15">
+    <div className="flex items-center h-[50%]  flex-col  text-lg gap-3 p-15 ">
       {appData ? (
         <>
           <div>
-            <h2>{appData.message1}</h2>
+            <h2 className="text-lg">{appData.message1}</h2>
           </div>
           <div className="flex flex-col gap-5">
             <button
