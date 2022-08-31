@@ -29,7 +29,7 @@ function FifthPage() {
           </div>
           <div className="flex flex-col gap-5">
             <button
-              className="rounded-lg flex px-3 py-1 click:bg-blue-500 bg-blue-500 text-left "
+              className="rounded-lg  flex justify-center self-center text-black bg-blue-500 px-10 py-5 box-content w-60"
               onClick={button1Handler}
             >
               <span className="text-xs  text-black">
@@ -38,7 +38,7 @@ function FifthPage() {
               {button1 ? <Tick /> : ""}
             </button>
             <button
-              className="rounded-lg  flex px-3 py-1  text-black p-1 click:bg-blue-500 bg-blue-500 text-left"
+              className="rounded-lg p-5 text-lg gap-3  flex justify-center  text-black bg-blue-500  "
               onClick={button2Handler}
             >
               <span className="text-xs  text-black">
@@ -47,7 +47,7 @@ function FifthPage() {
               {button2 ? <Tick /> : ""}
             </button>
             <button
-              className="rounded-lg flex  px-3 py-1  text-black p-1 click:bg-blue-500 bg-blue-500 text-left"
+              className="rounded-lg  flex justify-center self-center text-black bg-blue-500 px-10 py-5 box-content w-60"
               onClick={button3Handler}
             >
               <span className="text-xs  text-black">

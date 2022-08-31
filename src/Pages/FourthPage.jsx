@@ -21,7 +21,7 @@ function Fourthpage() {
   const PageData = useContext(dataContext);
   let appData = PageData.fourthPage;
   return (
-    <div className=" flex items-center min-h-screen  h-full justify-center flex-col text-lg gap-3 p-15">
+    <div className=" flex items-center  justify-center flex-col text-lg gap-3 p-15">
       {appData ? (
         <>
           <>
